@@ -18,5 +18,5 @@
     "class-methods-use-this": 0,
     "linebreak-style": 0,
     "max-len": [1,600,2]
-  }
+  },
 }
