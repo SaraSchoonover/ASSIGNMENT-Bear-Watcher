@@ -3,9 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test</title>
+  <title>Bear Watcher</title>
 </head>
 <body>
+  <h1>Katmai National Park</h1>
+
   <div id="app"></div>
+  
+  <div class="row align-items-start" id="form">
+    <h2>Bear Watcher</h2>
+    <form>
+      <div class="form-group">
+        <label for="bear-name">Bear Name</label>
+        <input
+          type="text"
+          class="form-control form-style"
+          id="bearName"
+          aria-describedby="bear"
+          required
+        />
+        
+      </div>
+      <div class="form-group">
+        <label for="description">Bear Image</label>
+        <input
+          type="text"
+          class="form-control form-style"
+          id="imgUrl"
+        />
+      </div>
+      <div class="form-check"></div>
+      <button type="submit" class="btn btn-success" id="create-bear">
+        Bear Me!
+      </button>
+    </form>
+  </div>
+  </div>
+  </div>
+
+  <!-- NAME AND FORM -->
+<div class="card-container2">
+  <div class="d-flex flex-wrap justify-content-center" id="form"></div>
+  </div>
+
+  <!-- BEAR CARD -->
+<div class="card-container">
+  <div class="d-flex flex-wrap justify-content-center" id="bearCard"></div>
+  </div>
+
 </body>
 </html>
