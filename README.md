@@ -50,3 +50,11 @@ $ npm start
 
 ## Bonus #2: Fattest Bear Award
 Each year in early september one bear is awarded the Fattest Bear award.  This award goes to the bear who gains the most weight between July and September.  Create an awards section on your application and award GOLD to the bear who has eaten the most fish, SILVER to the bear with the second most eaten fish, and BRONZE to the bear with the third most eaten fish.  Where applicable your application should show two winners for an award if the number of fish is tied.
+
+## Wireframes
+## Screenshots
+
+## List Of Contributers
+https://github.com/SaraSchoonover
+## Loom Video
+https://www.loom.com/share/7c48e0a866494b0b917af27dcb8d32d9
