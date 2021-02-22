@@ -2,8 +2,28 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(243, 182, 97);
+  color: rgb(59, 30, 30);
   text-align: center;
   margin-top: 100px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px grey;
+  margin-bottom: 1px solid black;
+  font-style: italic;
+}
+
+.bearForm {
+  text-align: center;
+}
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px grey;
+  margin-bottom: 1px solid black;
+  font-style: italic;
 }
