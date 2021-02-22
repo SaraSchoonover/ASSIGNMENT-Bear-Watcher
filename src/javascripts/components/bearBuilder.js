@@ -1,18 +1,18 @@
 import renderToDOM from '../helpers/data/renderToDom';
 
 const bearBuilder = (array) => {
-  let domString = '';
+  let card = '';
   array.forEach((item) => {
-    domString += `<div class='card m-1" style="width: 18rem;'>
+    card += `<div class='card'>
     <p class='card-text'>${item.name}</p>
     <div class='card-body'>
 <img src='${item.imageUrl}' class='card-img-top' alt='bearImg'>
-<button type="submit"  class="btn btn-primary" id="caught">Caught Fish</button>
-      <button type="submit"  class="btn btn-primary" id="missed">Missed Fish</button>
+<button type="submit"  class="btn btn-dark" id="caught">Caught Fish</button>
+      <button type="submit"  class="btn btn-dark" id="missed">Missed Fish</button>
 </div>
 </div>`;
   });
-  renderToDOM('#bearCard', domString);
+  renderToDOM('#bearFun', card);
 };
 
 export default bearBuilder;

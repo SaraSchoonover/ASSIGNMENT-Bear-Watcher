@@ -1,6 +1,7 @@
 import bearBuilder from '../../components/bearBuilder';
+import bears from './bearsData';
 
-const bears = [];
+// const bears = [];
 
 const getBear = (e) => {
   e.preventDefault();
